@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EE2B627AE6533A527FE82FD /* libPods-KokyHorizontalTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C53536EC86AA7CE6C518F93 /* libPods-KokyHorizontalTableView.a */; };
+		696B86DF1EB98A0E00767E7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 696B86DE1EB98A0E00767E7D /* main.m */; };
+		696B86E21EB98A0E00767E7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 696B86E11EB98A0E00767E7D /* AppDelegate.m */; };
+		696B86E51EB98A0E00767E7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696B86E41EB98A0E00767E7D /* ViewController.m */; };
+		696B86E81EB98A0E00767E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696B86E61EB98A0E00767E7D /* Main.storyboard */; };
+		696B86EA1EB98A0E00767E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696B86E91EB98A0E00767E7D /* Assets.xcassets */; };
+		696B86ED1EB98A0E00767E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696B86EB1EB98A0E00767E7D /* LaunchScreen.storyboard */; };
+		696B86F71EB98A2100767E7D /* ALKnowledgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696B86F51EB98A2100767E7D /* ALKnowledgeViewController.m */; };
+		696B86F81EB98A2100767E7D /* ALKnowledgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 696B86F61EB98A2100767E7D /* ALKnowledgeViewController.xib */; };
+		696B86FC1EB98A6500767E7D /* ALKnowledgeHomeTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 696B86FA1EB98A6500767E7D /* ALKnowledgeHomeTopView.m */; };
+		696B86FD1EB98A6500767E7D /* ALKnowledgeHomeTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 696B86FB1EB98A6500767E7D /* ALKnowledgeHomeTopView.xib */; };
+		696B87031EB98B3300767E7D /* NewPagedFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 696B87001EB98B3300767E7D /* NewPagedFlowView.m */; };
+		696B87041EB98B3300767E7D /* PGIndexBannerSubiew.m in Sources */ = {isa = PBXBuildFile; fileRef = 696B87021EB98B3300767E7D /* PGIndexBannerSubiew.m */; };
+		696B87081EB98B4D00767E7D /* ALKnowledgeCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 696B87061EB98B4D00767E7D /* ALKnowledgeCardView.m */; };
+		696B87091EB98B4D00767E7D /* ALKnowledgeCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 696B87071EB98B4D00767E7D /* ALKnowledgeCardView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F353F27E3263DFBD7B06424 /* Pods-KokyHorizontalTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KokyHorizontalTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-KokyHorizontalTableView/Pods-KokyHorizontalTableView.release.xcconfig"; sourceTree = "<group>"; };
+		4C53536EC86AA7CE6C518F93 /* libPods-KokyHorizontalTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KokyHorizontalTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		696B86DA1EB98A0E00767E7D /* KokyHorizontalTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KokyHorizontalTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		696B86DE1EB98A0E00767E7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		696B86E01EB98A0E00767E7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		696B86E11EB98A0E00767E7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		696B86E31EB98A0E00767E7D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		696B86E41EB98A0E00767E7D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		696B86E71EB98A0E00767E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		696B86E91EB98A0E00767E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		696B86EC1EB98A0E00767E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		696B86EE1EB98A0E00767E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696B86F41EB98A2000767E7D /* ALKnowledgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALKnowledgeViewController.h; sourceTree = "<group>"; };
+		696B86F51EB98A2100767E7D /* ALKnowledgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALKnowledgeViewController.m; sourceTree = "<group>"; };
+		696B86F61EB98A2100767E7D /* ALKnowledgeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALKnowledgeViewController.xib; sourceTree = "<group>"; };
+		696B86F91EB98A6500767E7D /* ALKnowledgeHomeTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALKnowledgeHomeTopView.h; sourceTree = "<group>"; };
+		696B86FA1EB98A6500767E7D /* ALKnowledgeHomeTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALKnowledgeHomeTopView.m; sourceTree = "<group>"; };
+		696B86FB1EB98A6500767E7D /* ALKnowledgeHomeTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALKnowledgeHomeTopView.xib; sourceTree = "<group>"; };
+		696B86FF1EB98B3300767E7D /* NewPagedFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPagedFlowView.h; sourceTree = "<group>"; };
+		696B87001EB98B3300767E7D /* NewPagedFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPagedFlowView.m; sourceTree = "<group>"; };
+		696B87011EB98B3300767E7D /* PGIndexBannerSubiew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGIndexBannerSubiew.h; sourceTree = "<group>"; };
+		696B87021EB98B3300767E7D /* PGIndexBannerSubiew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGIndexBannerSubiew.m; sourceTree = "<group>"; };
+		696B87051EB98B4D00767E7D /* ALKnowledgeCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALKnowledgeCardView.h; sourceTree = "<group>"; };
+		696B87061EB98B4D00767E7D /* ALKnowledgeCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALKnowledgeCardView.m; sourceTree = "<group>"; };
+		696B87071EB98B4D00767E7D /* ALKnowledgeCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALKnowledgeCardView.xib; sourceTree = "<group>"; };
+		C5D0EF88B9965FBA52FE4558 /* Pods-KokyHorizontalTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KokyHorizontalTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KokyHorizontalTableView/Pods-KokyHorizontalTableView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		696B86D71EB98A0E00767E7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE2B627AE6533A527FE82FD /* libPods-KokyHorizontalTableView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67B5D6FA4EA6629718BA4FD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5D0EF88B9965FBA52FE4558 /* Pods-KokyHorizontalTableView.debug.xcconfig */,
+				2F353F27E3263DFBD7B06424 /* Pods-KokyHorizontalTableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		696B86D11EB98A0E00767E7D = {
+			isa = PBXGroup;
+			children = (
+				696B86DC1EB98A0E00767E7D /* KokyHorizontalTableView */,
+				696B86DB1EB98A0E00767E7D /* Products */,
+				67B5D6FA4EA6629718BA4FD2 /* Pods */,
+				AD5465AD0B14D356172D7C48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		696B86DB1EB98A0E00767E7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				696B86DA1EB98A0E00767E7D /* KokyHorizontalTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		696B86DC1EB98A0E00767E7D /* KokyHorizontalTableView */ = {
+			isa = PBXGroup;
+			children = (
+				696B86FE1EB98B3300767E7D /* NewPagedFlowView */,
+				696B86E01EB98A0E00767E7D /* AppDelegate.h */,
+				696B86E11EB98A0E00767E7D /* AppDelegate.m */,
+				696B86E31EB98A0E00767E7D /* ViewController.h */,
+				696B86E41EB98A0E00767E7D /* ViewController.m */,
+				696B86E61EB98A0E00767E7D /* Main.storyboard */,
+				696B86F41EB98A2000767E7D /* ALKnowledgeViewController.h */,
+				696B86F51EB98A2100767E7D /* ALKnowledgeViewController.m */,
+				696B86F61EB98A2100767E7D /* ALKnowledgeViewController.xib */,
+				696B86F91EB98A6500767E7D /* ALKnowledgeHomeTopView.h */,
+				696B86FA1EB98A6500767E7D /* ALKnowledgeHomeTopView.m */,
+				696B86FB1EB98A6500767E7D /* ALKnowledgeHomeTopView.xib */,
+				696B87051EB98B4D00767E7D /* ALKnowledgeCardView.h */,
+				696B87061EB98B4D00767E7D /* ALKnowledgeCardView.m */,
+				696B87071EB98B4D00767E7D /* ALKnowledgeCardView.xib */,
+				696B86E91EB98A0E00767E7D /* Assets.xcassets */,
+				696B86EB1EB98A0E00767E7D /* LaunchScreen.storyboard */,
+				696B86EE1EB98A0E00767E7D /* Info.plist */,
+				696B86DD1EB98A0E00767E7D /* Supporting Files */,
+			);
+			path = KokyHorizontalTableView;
+			sourceTree = "<group>";
+		};
+		696B86DD1EB98A0E00767E7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				696B86DE1EB98A0E00767E7D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		696B86FE1EB98B3300767E7D /* NewPagedFlowView */ = {
+			isa = PBXGroup;
+			children = (
+				696B86FF1EB98B3300767E7D /* NewPagedFlowView.h */,
+				696B87001EB98B3300767E7D /* NewPagedFlowView.m */,
+				696B87011EB98B3300767E7D /* PGIndexBannerSubiew.h */,
+				696B87021EB98B3300767E7D /* PGIndexBannerSubiew.m */,
+			);
+			path = NewPagedFlowView;
+			sourceTree = "<group>";
+		};
+		AD5465AD0B14D356172D7C48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C53536EC86AA7CE6C518F93 /* libPods-KokyHorizontalTableView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		696B86D91EB98A0E00767E7D /* KokyHorizontalTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696B86F11EB98A0E00767E7D /* Build configuration list for PBXNativeTarget "KokyHorizontalTableView" */;
+			buildPhases = (
+				FD2CA90A92DCC550552225C3 /* [CP] Check Pods Manifest.lock */,
+				696B86D61EB98A0E00767E7D /* Sources */,
+				696B86D71EB98A0E00767E7D /* Frameworks */,
+				696B86D81EB98A0E00767E7D /* Resources */,
+				5D49F6E2E1A2F2D63A41C46C /* [CP] Embed Pods Frameworks */,
+				8AF8D7275A604838111CCD79 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KokyHorizontalTableView;
+			productName = KokyHorizontalTableView;
+			productReference = 696B86DA1EB98A0E00767E7D /* KokyHorizontalTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		696B86D21EB98A0E00767E7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xujing;
+				TargetAttributes = {
+					696B86D91EB98A0E00767E7D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 799WSE7R56;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 696B86D51EB98A0E00767E7D /* Build configuration list for PBXProject "KokyHorizontalTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 696B86D11EB98A0E00767E7D;
+			productRefGroup = 696B86DB1EB98A0E00767E7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				696B86D91EB98A0E00767E7D /* KokyHorizontalTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		696B86D81EB98A0E00767E7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696B86ED1EB98A0E00767E7D /* LaunchScreen.storyboard in Resources */,
+				696B86EA1EB98A0E00767E7D /* Assets.xcassets in Resources */,
+				696B87091EB98B4D00767E7D /* ALKnowledgeCardView.xib in Resources */,
+				696B86F81EB98A2100767E7D /* ALKnowledgeViewController.xib in Resources */,
+				696B86FD1EB98A6500767E7D /* ALKnowledgeHomeTopView.xib in Resources */,
+				696B86E81EB98A0E00767E7D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D49F6E2E1A2F2D63A41C46C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KokyHorizontalTableView/Pods-KokyHorizontalTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AF8D7275A604838111CCD79 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KokyHorizontalTableView/Pods-KokyHorizontalTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD2CA90A92DCC550552225C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		696B86D61EB98A0E00767E7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696B86E51EB98A0E00767E7D /* ViewController.m in Sources */,
+				696B87031EB98B3300767E7D /* NewPagedFlowView.m in Sources */,
+				696B87081EB98B4D00767E7D /* ALKnowledgeCardView.m in Sources */,
+				696B86E21EB98A0E00767E7D /* AppDelegate.m in Sources */,
+				696B86FC1EB98A6500767E7D /* ALKnowledgeHomeTopView.m in Sources */,
+				696B86F71EB98A2100767E7D /* ALKnowledgeViewController.m in Sources */,
+				696B87041EB98B3300767E7D /* PGIndexBannerSubiew.m in Sources */,
+				696B86DF1EB98A0E00767E7D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		696B86E61EB98A0E00767E7D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696B86E71EB98A0E00767E7D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		696B86EB1EB98A0E00767E7D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696B86EC1EB98A0E00767E7D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		696B86EF1EB98A0E00767E7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		696B86F01EB98A0E00767E7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		696B86F21EB98A0E00767E7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D0EF88B9965FBA52FE4558 /* Pods-KokyHorizontalTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = KokyHorizontalTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiLi.KokyHorizontalTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		696B86F31EB98A0E00767E7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F353F27E3263DFBD7B06424 /* Pods-KokyHorizontalTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = KokyHorizontalTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiLi.KokyHorizontalTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		696B86D51EB98A0E00767E7D /* Build configuration list for PBXProject "KokyHorizontalTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696B86EF1EB98A0E00767E7D /* Debug */,
+				696B86F01EB98A0E00767E7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		696B86F11EB98A0E00767E7D /* Build configuration list for PBXNativeTarget "KokyHorizontalTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696B86F21EB98A0E00767E7D /* Debug */,
+				696B86F31EB98A0E00767E7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 696B86D21EB98A0E00767E7D /* Project object */;
+}
